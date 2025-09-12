@@ -268,3 +268,52 @@ body {
   background-color: #f8fafc;
   border-color: #cbd5e1;
 }
+
+.experience {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.experience-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #2563eb;
+}
+
+.experience-date {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: rgb(95, 95, 95);
+}
