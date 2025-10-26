@@ -44,6 +44,12 @@ function addTask() {
 
 // READ - Display task in UI
 function displayTask(task) {
+    // Remove empty message if it exists
+    const emptyMessage = taskList.querySelector('.empty-message');
+    if (emptyMessage) {
+        emptyMessage.remove();
+    }
+
     const li = document.createElement('li');
     li.className = 'task-item';
     li.dataset.id = task.id;
