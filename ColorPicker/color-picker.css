@@ -28,7 +28,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-#color-picker {
+#colorPicker {
   width: 150px;
   height: 150px;
   border: 3px solid #ddd;
@@ -37,11 +37,11 @@ h2 {
   transition: transform 0.2s;
 }
 
-#color-picker:hover {
+#colorPicker:hover {
   transform: scale(1.05);
 }
 
-#color-value {
+#colorValue {
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
